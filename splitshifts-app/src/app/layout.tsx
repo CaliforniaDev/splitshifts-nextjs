@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { inter } from '@/app/components/ui/fonts';
 import { spaceGrotesk } from '@/app/components/ui/fonts';
+
+import TopNav from '@/app/components/ui/navigation/TopNav';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -14,8 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className={spaceGrotesk.variable}>
-      <body className={`${inter.className} antialiased`}>{children}</body>
+    <html lang='en'>
+      <body className={`${inter.className} ${spaceGrotesk.variable} antialiased`}>
+        <TopNav />
+        {children}
+      </body>
     </html>
   );
 }
