@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { inter } from "@/app/fonts";
-import { spaceGrotesk } from "@/app/fonts";
+import { inter } from "@/app/components/ui/fonts";
+import { spaceGrotesk } from "@/app/components/ui/fonts";
 import "./globals.css";
 
 
