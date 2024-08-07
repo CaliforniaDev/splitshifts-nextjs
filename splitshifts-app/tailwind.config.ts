@@ -48,7 +48,33 @@ const config: Config = {
       'surface-container-high': '#E5E8ED',
       'surface-container-highest': '#E0E3E8',
     },
+    fontSize: {
+      'display-lg': ['57px', '64px'],
+      'display-md': ['45px', '52px'],
+      'display-sm': ['36px', '44px'],
+      'display-xs': ['22px', '28px'],
+      'heading-lg': ['28px', '36px'],
+      'heading-md': ['24px', '32px'],
+      'heading-sm': ['18px', '24px'],
+      'body-lg': ['16px', '24px'],
+      'body-md': ['14px', '20px'],
+      'body-sm': ['12px', '16px'],
+      'label-lg': ['14px', '20px'],
+      'label-md': ['12px', '16px'],
+      'label-sm': ['11px', '16px'],
+      'title-lg': ['22px', '28px'],
+      'title-md': ['16px', '24px'],
+      'title-sm': ['14px', '20px'],
+    },
     extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)', 'Inter', 'sans-serif'],
+        'space-grotesk': [
+          'var(--font-space-grotesk)',
+          'Space Grotesk',
+          'sans-serif',
+        ],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
