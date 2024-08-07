@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${inter.className} ${spaceGrotesk.variable} antialiased`}>
+      <body
+        className={`${inter.className} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
+      >
         <TopNav />
         {children}
       </body>
