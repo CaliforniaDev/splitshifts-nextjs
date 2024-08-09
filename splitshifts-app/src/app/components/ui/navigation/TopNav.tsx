@@ -1,18 +1,19 @@
+import React from 'react';
 export default function TopNav() {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href='/'>Home</a>
         </li>
         <li>
-          <a href="/pricing">Pricing</a>
+          <a href='/pricing'>Pricing</a>
         </li>
         <li>
-          <a href="/learn-more">Learn More</a>
+          <a href='/learn-more'>Learn More</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href='/contact'>Contact</a>
         </li>
       </ul>
     </nav>
