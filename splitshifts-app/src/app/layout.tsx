@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { inter } from "@/app/components/fonts";
-import { spaceGrotesk } from "@/app/components/fonts";
+import { inter } from "@/app/components/ui/fonts";
+import { spaceGrotesk } from "@/app/components/ui/fonts";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,8 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={spaceGrotesk.variable}>
-      <body className={inter.className}>{children}</body>
+    <html lang="en">
+      <body
+        className={`${inter.className} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
