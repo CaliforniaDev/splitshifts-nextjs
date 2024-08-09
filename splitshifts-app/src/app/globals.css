@@ -4,123 +4,123 @@
 
 @layer base {
   /* Display Fonts */
-  .display-large,
-  .display-medium,
-  .display-small {
+  .font-display-large,
+  .font-display-medium,
+  .font-display-small {
     @apply font-space-grotesk;
     font-weight: 500;
   }
-  .display-large {
+  .font-display-large {
     @apply text-display-lg;
     letter-spacing: -0.25px;
   }
-  .display-medium {
+  .font-display-medium {
     @apply text-display-md;
     letter-spacing: 0px;
   }
-  .display-small {
+  .font-display-small {
     @apply text-display-sm;
     letter-spacing: 0px;
   }
-  .headline-large,
-  .headline-medium,
-  .headline-small {
+  .font-headline-large,
+  .font-headline-medium,
+  .font-headline-small {
     @apply font-space-grotesk;
     font-weight: 400;
   }
 
   /* Headline Fonts */
-  .headline-large {
-    @apply text-heading-lg;
+  .font-headline-large {
+    @apply text-headline-lg;
     letter-spacing: 0px;
   }
-  .headline-medium {
-    @apply text-heading-md;
+  .font-headline-medium {
+    @apply text-headline-md;
     letter-spacing: 0px;
   }
-  .headline-small {
-    @apply text-heading-sm;
+  .font-headline-small {
+    @apply text-headline-sm;
     letter-spacing: 0px;
   }
 
   /* Title Fonts  */
-  .title-large,
-  .title-medium,
-  .title-small {
+  .font-title-large,
+  .font-title-medium,
+  .font-title-small {
     @apply font-inter;
     font-weight: 500;
   }
-  .title-large {
+  .font-title-large {
     @apply text-title-lg;
     letter-spacing: 0px;
   }
-  .title-medium {
+  .font-title-medium {
     @apply text-title-md;
     letter-spacing: 0.15px;
   }
-  .title-small {
+  .font-title-small {
     @apply text-title-sm;
     letter-spacing: 0.1px;
   }
-  .title-small-prominent {
+  .font-title-small-prominent {
     @apply text-title-sm;
     letter-spacing: 0.1px;
     font-weight: 600;
   }
   /* Label Fonts */
 
-  .label-large,
-  .label-medium,
-  .label-small {
+  .font-label-large,
+  .font-label-medium,
+  .font-label-small {
     @apply font-inter;
     font-weight: 500;
   }
-  .label-large {
+  .font-label-large {
     @apply text-label-lg;
     letter-spacing: 0.1px;
   }
-  .label-large-prominent {
+  .font-label-large-prominent {
     @apply text-label-lg;
     letter-spacing: 0.1px;
     font-weight: 600;
   }
-  .label-medium {
+  .font-label-medium {
     @apply text-label-md;
     letter-spacing: 0.5px;
   }
-  .label-medium-prominent {
+  .font-label-medium-prominent {
     @apply text-label-md;
     letter-spacing: 0.5px;
     font-weight: 600;
   }
-  .label-small {
+  .font-label-small {
     @apply text-label-sm;
     letter-spacing: 0.5px;
   }
 
   /* Body Fonts */
 
-  .body-large,
-  .body-medium,
-  .body-small {
+  .font-body-large,
+  .font-body-medium,
+  .font-body-small {
     @apply font-inter;
     font-weight: 400;
   }
-  .body-large {
+  .font-body-large {
     @apply text-body-lg;
     letter-spacing: 0px;
   }
-  .body-medium {
+  .font-body-medium {
     @apply text-body-md;
     letter-spacing: 0.25px;
   }
-  .body-small {
+  .font-body-small {
     @apply text-body-sm;
     letter-spacing: 0.4px;
   }
 }
 
-/* :root {
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -142,7 +142,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-} */
+}
 
 @layer utilities {
   .text-balance {
