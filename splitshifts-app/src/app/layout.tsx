@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { inter } from "@/app/components/ui/fonts";
 import { spaceGrotesk } from "@/app/components/ui/fonts";
 
+import TopNav from "@/app/components/ui/navigation/TopNav";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
       >
+        <TopNav />
         {children}
       </body>
     </html>
